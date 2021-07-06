@@ -75,9 +75,8 @@
   
   .hero-image-section {
     width: 100%;
-    max-width: 3232px;
-    background: url(../images/heroimage.png) center/cover no-repeat;
-    padding: 500px 0;
+    /*background: url(../images/heroimage.png) center/cover no-repeat;*/
+
   }
   
   /*======================================
@@ -314,8 +313,8 @@
   
     .hero-image-section {
       max-width: 100%;
-      margin: auto;
-      padding: 68%;
+      /*margin: auto;
+      padding: 68%;*/
     }
   }
   /*======================================
