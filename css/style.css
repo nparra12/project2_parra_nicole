@@ -23,7 +23,7 @@
   
   p {
     font-family: "Montserrat", sans-serif;
-    margin: 15px 0; /*top right bottom left*/
+    /*margin: 15px 0; top right bottom left*/
     font-size: large;
   }
   
@@ -67,6 +67,10 @@
     width: 150px;
   }
   
+
+  .desktop-menu{
+      display: none;
+  }
   /*======================================
   
               Hero Image Section
@@ -86,8 +90,8 @@
   ======================================*/
   
   .container {
+    width: 100%;
     margin: 0 auto;
-    max-width: 900px;
     z-index: 2;
   }
   
@@ -97,11 +101,25 @@
   
   ======================================*/
   .about-section {
-    text-align: center;
-    padding: 250px 50px;
-    margin: 20px 0 20px;
+      display: flex;
+      flex-flow: row;
+      align-items: space-between;
+      justify-content: center;     
+
+
+  }
+
+
+  .about-section img{
+   border-radius: 50%;
+   width: 26%;
+   padding: 30px;
   }
   
+  .about-section p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
   .menubutton {
     background-color: #e87d59;
     border: none;
@@ -138,6 +156,7 @@
   }
   .drink-menu {
     text-align: center;
+    width: 100%;
   }
   
   .drinks {
@@ -293,12 +312,14 @@
       top: 0.5rem;
     }
   }
+
+
   
   /*======================================
           
       START MIN-WIDTH 320 MEDIA QUERY
   
-  ======================================*/
+  ======================================
   
   @media (min-width: 320px) {
     main {
@@ -314,20 +335,20 @@
     .hero-image-section {
       max-width: 100%;
       /*margin: auto;
-      padding: 68%;*/
+      padding: 68%;
     }
   }
   /*======================================
           
       END MIN-WIDTH 320 MEDIA QUERY
   
-  ======================================*/
+  ======================================
   
   /*======================================
           
       START MIN-WIDTH 1080 MEDIA QUERY
   
-  ======================================*/
+  ======================================
   
   @media (min-width: 1080px) {
     main {
