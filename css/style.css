@@ -79,8 +79,7 @@
   
   .hero-image-section {
     width: 100%;
-    /*background: url(../images/heroimage.png) center/cover no-repeat;*/
-
+    max-width: 3760px;
   }
   
   /*======================================
