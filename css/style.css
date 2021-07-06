@@ -105,12 +105,10 @@
       flex-flow: row;
       align-items: space-between;
       justify-content: center;     
-
-
   }
 
 
-  .about-section img{
+.about-section img{
    border-radius: 50%;
    width: 26%;
    padding: 30px;
@@ -133,6 +131,7 @@
   
   .menubutton:hover {
     background-color: #ae5f41;
+    color: white;
   }
   
   .about-section h1::after {
@@ -183,12 +182,10 @@
     background-color: #fccd93;
     text-align: center;
     font-size: 2rem;
-    padding: 200px 0;
+    padding: 200px 200px;
   }
   
-  .testimonial p {
-    margin-left: 900px;
-  }
+ 
   /*======================================
   
               Shop Section
