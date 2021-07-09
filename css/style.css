@@ -96,18 +96,19 @@ header nav a {
 ======================================*/
 .about-section {
   text-align: center;
-  padding: 100px 2px;
+  padding: 100px 3px;
   margin: 20px 0 20px;
 }
 
 .about-section p {
-  padding: 2%;
+  padding: 4%;
 }
 
 
 
 .menubutton {
-  background-color: #e87d59;
+  background-color: #e68666;
+  color: #000;
   border: none;
   padding: 15px;
   margin: 10px;
@@ -119,6 +120,12 @@ header nav a {
 
 .menubutton:hover {
   background-color: #ae5f41;
+  color: #fff;
+}
+
+.menubutton,a:hover {
+  background-color: #e68666;
+
 }
 
 .about-section h1::after {
@@ -172,7 +179,7 @@ header nav a {
 }
 
 .testimonial p {
-  margin-left: 900px;
+  text-align: center;
 }
 /*======================================
 
@@ -322,7 +329,12 @@ footer {
     /*==margin: auto;
     padding: 68%;*/
   }
+
+  section.testimonial{
+    margin: auto;
+    padding: 10%;
 }
+
 /*======================================
         
     END MIN-WIDTH 320 MEDIA QUERY
