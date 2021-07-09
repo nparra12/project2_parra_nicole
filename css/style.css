@@ -32,6 +32,12 @@
     margin: 15px;
   }
   
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+}
   /*======================================
   
                   Header
@@ -90,7 +96,7 @@
   
   .container {
     width: 100%;
-    margin: 0 auto;
+    display: flex;
     z-index: 2;
   }
   
@@ -100,23 +106,20 @@
   
   ======================================*/
   .about-section {
-      display: flex;
-      flex-flow: row;
-      align-items: space-between;
-      justify-content: center;     
+   
   }
 
+  .about-section img{
+      width: 26%;
+      padding: 35px;
 
-.about-section img{
-   border-radius: 50%;
-   width: 26%;
-   padding: 30px;
   }
-  
-  .about-section p{
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
+
+.about-section p{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+ 
   .menubutton {
     background-color: #e87d59;
     border: none;
@@ -151,10 +154,10 @@
     left: 0;
     right: 0;
     padding: 100px 0;
+    width: 100%;
   }
   .drink-menu {
     text-align: center;
-    width: 100%;
   }
   
   .drinks {
@@ -174,7 +177,7 @@
   
   /*======================================
   
-              Testomonial break
+              Testimonial break
   
   ======================================*/
   .testimonial {
@@ -216,12 +219,16 @@
   .column {
     column-count: 2;
   }
+
+  iframe{
+   width: 100%;
+  }
   
   .contact-container {
     background-color: #fffff8;
     padding: 50px;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 100%;
   }
   
   input[type="text"],
@@ -254,7 +261,6 @@
   }
   
   .column {
-    float: left;
     width: 95%;
     margin-top: 6px;
     padding: 25px;
