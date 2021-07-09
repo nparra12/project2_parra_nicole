@@ -77,6 +77,11 @@
   .desktop-menu{
       display: none;
   }
+
+  main{
+    display: flex;
+    align-content: center;
+  }
   /*======================================
   
               Hero Image Section
@@ -84,8 +89,8 @@
   ======================================*/
   
   .hero-image-section {
+    display: flex;
     width: 100%;
-    max-width: 3760px;
   }
   
   /*======================================
@@ -95,8 +100,6 @@
   ======================================*/
   
   .container {
-    width: 100%;
-    display: flex;
     z-index: 2;
   }
   
@@ -106,18 +109,20 @@
   
   ======================================*/
   .about-section {
+    padding: 20%;
    
   }
 
-  .about-section img{
+ /* .about-section img{
       width: 26%;
       padding: 35px;
 
-  }
+  }*/
 
 .about-section p{
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
 }
  
   .menubutton {
