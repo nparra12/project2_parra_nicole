@@ -35,24 +35,15 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
   </head>
 
   <body>
     <header>
-      <nav class="nav-menu">
-        <ul>
-          <li>
-            <a href="#home"
-              ><img class="logo" src="images/logo.png" alt="logo" title="logo"
-            /></a>
-          </li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
+    
       <nav class="desktop-menu">
         <ul>
           <li><a href="#about">About</a></li>
@@ -158,6 +149,7 @@
 
       <section class="testimonial">
         <h3>Honestly, some of the best coffee I've ever had.</h3>
+        
         <p>Axel P.</p>
       </section>
 
@@ -282,5 +274,17 @@
       </div>
       <p>2020 Luna Coffee Co. All Rights Reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener('load', addDarkmodeWidget);
+    </script>
+
+    <script src="js/main.js"></script>
+
+
   </body>
 </html>

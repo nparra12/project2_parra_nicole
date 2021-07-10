@@ -43,8 +43,9 @@ header {
   position: fixed;
   left: 0;
   right: 0;
-  padding: 10px 0;
+  padding: 20px 0;
   opacity: 0.8;
+  z-index: 3px;
 }
 
 header nav ul li {
@@ -63,9 +64,6 @@ header nav a {
   margin: 0 20px;
 }
 
-.logo {
-  width: 150px;
-}
 
 /*======================================
 
@@ -75,6 +73,9 @@ header nav a {
 
 .hero{
   width: 100%;
+  margin-top: 65px;
+  margin-bottom: 2px;
+
 }
 
 /*======================================
@@ -128,11 +129,6 @@ header nav a {
 
 }
 
-.about-section h1::after {
-  content: url(../images/moon.png);
-  padding: 20px;
-  margin-top: 50px;
-}
 /*======================================
 
             Menu Section
@@ -265,6 +261,13 @@ input[type="submit"]:hover {
   clear: both;
 }
 
+
+iframe {
+  width: 650px;
+  height: 400px;
+  margin: auto;
+}
+
 /*======================================
 
             Footer Section
@@ -320,19 +323,21 @@ footer {
     display: block;
   }
 
-  .nav-menu {
-    display: none;
-  }
 
-  .hero-image-section {
-    max-width: 320px;
-    /*==margin: auto;
-    padding: 68%;*/
+  header{
+    display: inline-block;
+    margin-left: 2px;
   }
-
+ 
   section.testimonial{
     margin: auto;
     padding: 10%;
+  }
+ 
+  iframe {
+    margin: auto;
+  }
+  
 }
 
 /*======================================
@@ -340,6 +345,32 @@ footer {
     END MIN-WIDTH 320 MEDIA QUERY
 
 ======================================*/
+
+
+/*======================================
+        
+    START MIN-WIDTH 750 MEDIA QUERY
+
+======================================*/
+@media (min-width: 750px) {
+ 
+
+  iframe {
+    width: 550px;
+    height: 400px;
+    margin: auto;
+  }
+  
+}
+
+
+
+/*======================================
+        
+    END MIN-WIDTH 750 MEDIA QUERY
+
+======================================*/
+
 
 /*======================================
         
@@ -355,6 +386,13 @@ footer {
   .menu-container {
     width: 100%;
   }
+
+  iframe {
+    width: 650px;
+    height: 400px;
+    margin: auto;
+  }
+
 }
 
 /*======================================
