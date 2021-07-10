@@ -32,6 +32,12 @@ hr {
   margin: 15px;
 }
 
+h1.animate__animated.animate__bounce {
+  color: #fccd93;
+  font-size: 36px;
+}
+
+
 /*======================================
 
                 Header
@@ -44,7 +50,7 @@ header {
   left: 0;
   right: 0;
   padding: 20px 0;
-  opacity: 0.8;
+  opacity: 1;
   z-index: 3px;
 }
 
@@ -87,7 +93,7 @@ header nav a {
 .container {
   margin: 0 auto;
   max-width: 900px;
-  z-index: 2;
+ 
 }
 
 /*======================================
@@ -103,6 +109,7 @@ header nav a {
 
 .about-section p {
   padding: 4%;
+  line-height: 1.6;
 }
 
 
@@ -289,6 +296,14 @@ footer {
   padding: 5px;
 }
 
+
+
+.elfsight-app-1823a053-e50b-456d-b085-5d611b65c8e4{
+  background-color: #f4e5e1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /*======================================
 
              Animation Section
@@ -334,9 +349,7 @@ footer {
     padding: 10%;
   }
  
-  iframe {
-    margin: auto;
-  }
+
   
 }
 
